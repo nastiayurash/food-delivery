@@ -31,8 +31,7 @@ a {
   justify-content: center;
   gap: 28px;
 }
-.menu-item {
-}
+
 .menu-item:first-child .menu-link {
   font-weight: 700;
   text-decoration: underline;
@@ -51,8 +50,44 @@ a {
   color: #2c2c2c;
   background: #bbf330;
   border-radius: 30px;
-  padding: 6px 17px;
   border: none;
-  margin-right: 16px;
+  cursor: pointer;
+  margin-right: 30px;
 }
 /* #endregion header */
+/* #region hero */
+.hero {
+  padding-top: 159px;
+  margin-bottom: 55px;
+  display: flex;
+}
+.hero-container {
+  display: block;
+  max-width: 511px;
+  padding-left: 16px;
+}
+h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.2;
+  color: #2c2c2c;
+}
+.hero-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2c2c2c;
+}
+.image-container {
+  display: flex;
+}
+.overlay-image {
+  display: block;
+  position: absolute;
+}
+.background-image {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+/* #endregion hero */
