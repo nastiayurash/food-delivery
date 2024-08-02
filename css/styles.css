@@ -1,5 +1,8 @@
 body {
   font-family: "Roboto", sans-serif;
+  max-width: 1312px;
+
+  background: #fff;
 }
 ul,
 ol {
@@ -15,9 +18,9 @@ a {
   background: #fefefe;
   align-items: center;
   justify-content: space-between;
-  padding: 20px;
 }
 .logo {
+  padding-left: 16px;
   display: flex;
 }
 .logo-img {
@@ -52,7 +55,8 @@ a {
   border-radius: 30px;
   border: none;
   cursor: pointer;
-  margin-right: 30px;
+  margin-right: 16px;
+  padding: 6px 17px;
 }
 /* #endregion header */
 /* #region hero */
@@ -60,10 +64,11 @@ a {
   padding-top: 159px;
   margin-bottom: 55px;
   display: flex;
+  justify-content: space-between;
 }
 .hero-container {
   display: block;
-  max-width: 511px;
+  margin-right: 143px;
   padding-left: 16px;
 }
 h1 {
@@ -71,19 +76,24 @@ h1 {
   font-size: 48px;
   line-height: 1.2;
   color: #2c2c2c;
+  max-width: 511px;
 }
 .hero-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: #2c2c2c;
+  max-width: 511px;
 }
 .image-container {
   display: flex;
+  margin-right: 30px;
 }
 .overlay-image {
+  background-image: url(<svgwidth="580"height="580"viewBox="0 0 580 580"fill="none"xmlns="http://www.w3.org/2000/svg"><circlecx="290"cy="290"r="277"fill="#FEFEFE"stroke="#FFE550"stroke-width="26"/></svgwidth=>);
   display: block;
   position: absolute;
+  margin: 26px 35px 26px 17px;
 }
 .background-image {
   display: block;
