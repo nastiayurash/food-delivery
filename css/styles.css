@@ -97,15 +97,16 @@ h1 {
   background-image: url(<svgwidth="580"height="580"viewBox="0 0 580 580"fill="none"xmlns="http://www.w3.org/2000/svg"><circlecx="290"cy="290"r="277"fill="#FEFEFE"stroke="#FFE550"stroke-width="26"/></svgwidth=>);
   display: block;
   position: absolute;
+  margin-right: 65px;
   padding-top: 26px;
-  padding-right: 35px;
-  padding-left: 20px;
+  padding-left: 17px;
+  border-radius: 291px;
+  width: 528px;
 }
 
 .background-image {
   display: block;
-  margin: 0;
-  padding: 0;
+  padding-right: 30px;
 }
 .button-hero {
   font-weight: 500;
