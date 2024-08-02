@@ -63,7 +63,7 @@ a {
 /* #endregion header */
 /* #region hero */
 .hero {
-  padding-top: 159px;
+  padding-top: 14px;
   margin-bottom: 55px;
   display: flex;
   justify-content: space-between;
@@ -79,6 +79,7 @@ h1 {
   line-height: 1.2;
   color: #2c2c2c;
   max-width: 511px;
+  margin-top: 159px;
 }
 .hero-text {
   font-weight: 400;
@@ -89,17 +90,58 @@ h1 {
 }
 .image-container {
   display: flex;
-  margin-right: 30px;
+  padding-right: 30px;
+  padding-top: 14px;
 }
 .overlay-image {
   background-image: url(<svgwidth="580"height="580"viewBox="0 0 580 580"fill="none"xmlns="http://www.w3.org/2000/svg"><circlecx="290"cy="290"r="277"fill="#FEFEFE"stroke="#FFE550"stroke-width="26"/></svgwidth=>);
   display: block;
   position: absolute;
-  margin: 26px 35px 26px 17px;
+  padding-top: 26px;
+  padding-right: 35px;
+  padding-left: 17px;
 }
+
 .background-image {
   display: block;
   margin: 0;
   padding: 0;
 }
+.button-hero {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  text-align: right;
+  color: #2c2c2c;
+  background: #bbf330;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  padding: 6px 17px;
+  margin-top: 40px;
+}
 /* #endregion hero */
+/* #region features */
+.features-container {
+  background: #ffe550;
+  display: flex;
+  justify-content: space-between;
+}
+.features-header {
+  font-size: 42px;
+  margin-top: 196px;
+  margin-right: 98px;
+  max-width: 526px;
+  margin-left: 90px;
+}
+.features-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2c2c2c;
+  max-width: 500px;
+  margin-top: 20px;
+  margin-right: 124px;
+  margin-left: 90px;
+}
+/* #endregion features */
