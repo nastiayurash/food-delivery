@@ -268,46 +268,73 @@
       <section class="offers">
         <div class="container offers-container">
           <div class="offers-wrapper">
-            <h2>Subscribe To Get Special Offers</h2>
-            <p>
+            <h2 class="offers-title">Subscribe To Get Special Offers</h2>
+            <p class="offers-text">
               Order now and receive 10% off your first meal with Enjoy Your
               Favorite Food From Anywhere.
             </p>
-            <input type="email" placeholder="Enter your email" />
-            <button type="submit">Subscribe</button>
+            <input
+              class="input-offers"
+              type="email"
+              placeholder="Enter your email"
+            />
+            <button class="offers-btn" type="submit">Subscribe</button>
           </div>
-          <img src="./images/banan.png" alt="banana" />
+          <img class="offers-img" src="./images/banan.png" alt="banana" />
         </div>
       </section>
       <!--#endregion offers-->
     </main>
+    <!--#region footer-->
     <footer>
-      <div class="container">
-        <a href=""
-          ><img src="./images/Vector.svg" alt="logo" width="66" height="52"
-        /></a>
-        <nav>
-          <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Service</a></li>
-            <li><a href="">Menu</a></li>
-            <li><a href="">Contact</a></li>
+      <div class="container footer-container">
+        <div class="footer-wrapper">
+          <div class="nav-wrapper">
+            <nav class="footer-nav">
+              <a href=""
+                ><img
+                  class="footer-logo"
+                  src="./images/Vector.svg"
+                  alt="logo"
+                  width="66"
+                  height="52"
+              /></a>
+
+              <ul class="footer-ul">
+                <li><a class="footer-nav-link">Home</a></li>
+                <li><a class="footer-nav-link" href="">About</a></li>
+                <li><a class="footer-nav-link" href="">Service</a></li>
+                <li><a class="footer-nav-link" href="">Menu</a></li>
+                <li><a class="footer-nav-link" href="">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="sucsribe-wrapper">
+            <p class="footer-title">Subscribe</p>
+            <form class="footer-form">
+              <input
+                class="footer-input"
+                type="email"
+                placeholder="Enter your email"
+              />
+              <button class="footer-btn" type="submit">Subscribe</button>
+            </form>
+            <p class="footer-policy-text">
+              By subscribing you agree to with our
+              <a class="privacy-link" href="">Privacy Policy</a>
+            </p>
+          </div>
+        </div>
+        <div class="footer-bottom-wrapper">
+          <ul class="footer-bottom-list">
+            <li><a class="footer-link" href="">Privacy Policy</a></li>
+            <li><a class="footer-link" href="">Terms of Service</a></li>
+            <li><a class="footer-link" href="">Cookies Settings</a></li>
           </ul>
-        </nav>
-        <p>Subscribe</p>
-        <input type="email" placeholder="Enter your email" />
-        <button type="submit">Subscribe</button>
-        <p>
-          By subscribing you agree to with our <a href="">Privacy Policy</a>
-        </p>
-        <ul>
-          <li><a href="">Privacy Policy</a></li>
-          <li><a href="">Terms of Service</a></li>
-          <li><a href="">Cookies Settings</a></li>
-        </ul>
-        <p>2022 FoodSta. All right reserved.</p>
+          <p>2022 FoodSta. All right reserved.</p>
+        </div>
       </div>
     </footer>
+    <!--#endregion footer-->
   </body>
 </html>
