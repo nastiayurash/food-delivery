@@ -314,6 +314,23 @@ button {
 .favorites-item {
   width: calc((100%-64px) / 3);
 }
+.favorites-img {
+  display: block;
+  border-radius: 157px;
+  width: 315px;
+  height: 315px;
+}
+.img-favorites-wrapper {
+  box-sizing: border-box;
+  border: 16px solid #ffe550;
+  border-radius: 197px;
+  background: #fefefe;
+  width: 394px;
+  height: 397px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /* #endregion favorites */
 /* #region customers */
@@ -428,8 +445,9 @@ button {
   padding-top: 100px;
   padding-left: 21px;
 }
-.footer-logo {
-  margin-right: 143px;
+
+.logo-svg {
+  fill: none;
 }
 .footer-nav {
   display: flex;
