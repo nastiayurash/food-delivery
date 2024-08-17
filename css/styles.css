@@ -243,8 +243,7 @@ button {
 .delivery-item {
   width: calc((100% - 67px) / 2);
 }
-.delivery-title {
-}
+
 .delivery-icons-wrapper {
   border-radius: 100%;
   background-color: #fefefe;
@@ -435,8 +434,6 @@ button {
   background-color: #ffe450;
 }
 
-.offers-image {
-}
 /* #endregion offers */
 /* #region footer */
 .footer-container {
@@ -449,7 +446,7 @@ button {
 .logo-svg {
   fill: none;
 }
-.logo-link {
+.logo-link-footer {
   margin-right: 143px;
 }
 .footer-nav {
