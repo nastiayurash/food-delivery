@@ -449,6 +449,9 @@ button {
 .logo-svg {
   fill: none;
 }
+.logo-link {
+  margin-right: 143px;
+}
 .footer-nav {
   display: flex;
   justify-content: flex-start;
